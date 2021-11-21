@@ -1,0 +1,214 @@
+body {
+   font-family: 'Roboto',sans-serif;
+   letter-spacing: 0.03em;
+   color: var(--main-text-color);
+}
+:root {
+   --main-text-color:#212121;
+   --text-color:#757575;
+   --header-fone-color:#FFFFFF;
+   --footer-fone-color:#2F303A;
+   --accent-color:#2196F3; 
+   --button-color:#F5F4FA;
+   --button-text-color:#212121;
+
+}
+/* Цвет заголовков текста #212121 */
+/* Цвет  текста #757575 */
+/* Основной цвет фона #E5E5E5 */
+/* Цвет фона шапки #FFFFFF */
+/* Цвет фона подвала  #2F303A */
+/* Активный цвет #2196F3 */
+/* Основной цвет кнопки #F5F4FA;*/
+/* Основной цвет текста в кнопке #212121;*/
+
+/* Шапка */
+.header-sektion {
+   background-color: var(--header-fone-color);
+}
+/* Логотип */
+.logo {
+   font-family: 'Raleway',sans-serif;
+   font-size  : 26px;
+   line-height: 1.2;
+   color: var(--accent-color);
+   letter-spacing: 0.03em;
+   text-decoration: none;
+}
+.accent {
+   color: black;
+}
+.accent-footer {
+   color: white;
+}
+
+/* Навигация */
+.list {
+   list-style: none;
+}
+.site-nave {
+   color: var(--main-text-color);
+   font-weight: 500;
+   font-size  : 14px;
+   line-height: 1.2;
+   letter-spacing: 0.02em;
+   text-decoration: none;
+}
+.site-nave:hover,
+.site-nave:focus {
+   color: var(--accent-color);
+}
+.site-nave-studio {
+   color         : var(--main-text-color);
+font-weight   : 500;
+font-size     : 14px;
+line-height   : 1.2;
+letter-spacing: 0.02em;
+text-decoration: none;
+} 
+.site-nave-studio:hover,
+.site-nave-studio:focus,
+.site-nave-studio:active,
+.site-nave-studio:visited {
+   color: var(--accent-color);
+}
+.site-nave-portfolio {
+   color         : var(--main-text-color);
+font-weight   : 500;
+font-size     : 14px;
+line-height   : 1.2;
+letter-spacing: 0.02em;
+text-decoration: none;
+}
+.site-nave-portfolio:hover,
+.site-nave-portfolio:focus,
+.site-nave-portfolio:active,
+.site-nave-portfolio:visited {
+   color: var(--accent-color);
+}
+
+
+
+
+/* Контакты */
+.contakts-nave {
+   color: var(--text-color);
+   font-weight: 500;
+   font-size  : 14px;
+   line-height: 1.2;
+   letter-spacing: 0.02em;
+   text-decoration: none;
+}
+.contakts-nave:hover,
+.contakts-nave:focus {
+   color: var(--accent-color);
+}
+
+/* Основной блок */
+/* Герой */
+.hero {
+  background-color: var(--footer-fone-color);
+}
+.hero-name {
+   color: var(--header-fone-color);
+   font-weight: 900;
+   font-size  : 44px;
+   line-height: 1.4;
+   text-align: center;
+   letter-spacing: 0.06em;
+   text-transform: uppercase;
+}
+.section-title {
+   font-weight: bold;
+   font-size  : 36px;
+   line-height: 1.2;
+   text-align: center;
+}
+.advantages-title {
+   font-weight   : bold;
+   font-size     : 14px;
+   line-height   : 1.1;
+   text-transform: uppercase;
+}
+.advantages-text {
+   color: var(--text-color);
+   font-size  : 14px;
+   line-height: 1.7;
+}
+.name {
+   font-weight: 500;
+   font-size  : 16px;
+   line-height: 1.2;
+}
+.specialty {
+   color: var(--text-color);
+   font-size  : 16px;
+   line-height: 1.2;
+}
+/* portfolio */
+/* Наши работы */
+.title-of-works {
+   font-weight: bold;
+   font-size  : 18px;
+   line-height: 2;
+}
+.text-of-works {
+   color: var(--text-color);
+   font-size  : 16px;
+   line-height: 1.9;
+}
+/* Кнопки */
+
+.button-primary {
+   background-color:var(--button-color);
+   color:var(--button-text-color);
+   font-family: inherit;
+   cursor: pointer;
+   font-weight: 500;
+   font-size  : 16px;
+   line-height: 1.6;
+   text-align: center;
+}
+.button-primary:hover,
+.button-primary:focus {
+  background-color:var(--accent-color);
+  color:var(--header-fone-color);
+}
+.button-main {
+   background-color:var(--accent-color);
+   color:var(--header-fone-color) ;
+   font-family: inherit;
+   cursor: pointer;
+   font-weight: bold;
+   font-size  : 16px;
+   line-height: 1.9;
+   letter-spacing: 0.06em;
+   padding: 5px 10px 5px 10px;
+}
+.button-main:hover,
+.button-main:focus {
+   background-color:var(--button-color);
+   color:var(--button-text-color);
+}
+
+/* Подвал */
+.footer-sektion {
+   background:var(--footer-fone-color);
+}
+.adress {
+    color:var(--header-fone-color);
+    font-style: normal;
+    font-size  : 14px;
+    line-height: 1.7;
+}
+.contakts-footer {
+   color: rgba(255, 255, 255, 0.6);
+   font-style : normal;
+   font-size  : 14px;
+   line-height: 1.7;
+   text-decoration: none;
+}
+.contakts-footer:hover,
+.contakts-footer:focus {
+   color: var(--accent-color);
+}
