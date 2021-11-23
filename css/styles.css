@@ -15,7 +15,16 @@ body {
    --accent-color:#2196F3; 
    --button-color:#F5F4FA;
    --button-text-color:#212121;
-
+}
+h2 {
+   margin: 0px;
+}
+.main-container {
+   width: 1200px;
+   margin-left: auto;
+   margin-right: auto;
+   padding-left: 15px;
+   padding-right: 15px;
 }
 /* Цвет заголовков текста #212121 */
 /* Цвет  текста #757575 */
@@ -29,6 +38,8 @@ body {
 /* Шапка */
 .header-sektion {
    background-color: var(--header-fone-color);
+   padding-top: 24px;
+   padding-bottom: 25px;
 }
 /* Логотип */
 .logo {
@@ -93,9 +104,6 @@ text-decoration: none;
    color: var(--accent-color);
 }
 
-
-
-
 /* Контакты */
 .contakts-nave {
    color: var(--text-color);
@@ -125,6 +133,7 @@ text-decoration: none;
    text-transform: uppercase;
    margin-top: 0px;
    margin-bottom: 30px;
+   padding-top: 200px;
 }
 .section-title {
    font-weight: bold;
@@ -149,6 +158,13 @@ text-decoration: none;
    margin-top: 0px;
    margin-bottom: 0px;
 }
+.container-advantages {
+   padding-top: 94px;
+   padding-bottom: 94px;
+}
+.container-work {
+   padding-bottom: 188px;
+}
 .name {
    font-weight: 500;
    font-size  : 16px;
@@ -162,6 +178,17 @@ text-decoration: none;
    line-height: 1.2;
    margin-top: 0px;
    margin-bottom: 0px;
+}
+.container-team {
+padding-bottom: 0px;
+}
+.card-team {
+   width: 270px;
+   height: 368px;
+   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+   0px 1px 1px rgba(0, 0, 0, 0.14),
+   0px 2px 1px rgba(0, 0, 0, 0.2);
+   border-radius: 0px 0px 4px 4px;
 }
 /* portfolio */
 /* Наши работы */
@@ -177,13 +204,17 @@ text-decoration: none;
    font-size  : 16px;
    line-height: 1.9;
    margin-top: 0px;
-   margin-bottom: 20px;
+   margin-bottom: 0px;
+}
+.card {
+   width: 370px;
+   height: 404px;
+   background: #FFFFFF;
+   border: 1px solid #EEEEEE;
+   box-sizing: border-box;
+   margin-bottom: 30px;
 }
 
-/* Контейнеры*/
-.conteiner {
-   background-color: blueviolet;
-}
 /* Кнопки */
 
 .button-primary {
@@ -226,10 +257,20 @@ text-decoration: none;
    background-color:var(--button-color);
    color:var(--button-text-color);
 }
+.section-button-main {
+   padding-bottom: 200px;
+}
+.section-button {
+   padding-top: 94px;
+   padding-bottom: 50px;
+}
 
 /* Подвал */
 .footer-sektion {
    background:var(--footer-fone-color);
+   padding-top: 60px;
+   padding-bottom: 60px;
+   margin-top: 94px;
 }
 .adress {
     color:var(--header-fone-color);
