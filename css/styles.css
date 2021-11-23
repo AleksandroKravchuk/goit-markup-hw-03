@@ -40,6 +40,7 @@ h2 {
    background-color: var(--header-fone-color);
    padding-top: 24px;
    padding-bottom: 25px;
+   border-bottom:  1px solid #ECECEC;
 }
 /* Логотип */
 .logo {
