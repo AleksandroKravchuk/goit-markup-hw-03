@@ -19,7 +19,7 @@ body {
 h2 {
    margin: 0px;
 }
-.main-container {
+.container {
    width: 1200px;
    margin-left: auto;
    margin-right: auto;
@@ -159,11 +159,11 @@ text-decoration: none;
    margin-top: 0px;
    margin-bottom: 0px;
 }
-.container-advantages {
+.section-advantages {
    padding-top: 94px;
    padding-bottom: 94px;
 }
-.container-work {
+.section-work {
    padding-bottom: 188px;
 }
 .name {
@@ -180,7 +180,7 @@ text-decoration: none;
    margin-top: 0px;
    margin-bottom: 0px;
 }
-.container-team {
+.section-team {
 padding-bottom: 0px;
 }
 .card-team {
@@ -190,6 +190,7 @@ padding-bottom: 0px;
    0px 1px 1px rgba(0, 0, 0, 0.14),
    0px 2px 1px rgba(0, 0, 0, 0.2);
    border-radius: 0px 0px 4px 4px;
+   text-align: center;
 }
 /* portfolio */
 /* Наши работы */
@@ -199,6 +200,7 @@ padding-bottom: 0px;
    line-height: 2;
    margin-top: 20px;
    margin-bottom: 4px;
+   padding-left: 24px;
 }
 .text-of-works {
    color: var(--text-color);
@@ -206,6 +208,7 @@ padding-bottom: 0px;
    line-height: 1.9;
    margin-top: 0px;
    margin-bottom: 0px;
+   padding-left: 24px;
 }
 .card {
    width: 370px;

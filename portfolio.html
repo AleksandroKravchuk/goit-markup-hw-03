@@ -15,9 +15,10 @@
     <link rel="stylesheet" href="./css/styles.css">    
 </head>
 <body>
-    <div class="main-container">
     <!--шапка сайта-->
     <header class="header-sektion">
+        <div class="container">
+        <div class="section-nav">
         <nav>
         <a class="logo" href="./index.html">Web<span class="accent">Studio</span></a>
         <ul class="list">
@@ -26,14 +27,19 @@
             <li><a href="" class="site-nave">Контакты</a></li>
         </ul>
         </nav>
-        <ul class="list">
+        </div>
+            <div class="section-contakts">
+            <ul class="list">
             <li><a href="mailto:info@devstudio.com" class="contakts-nave" >info@devstudio.com</a></li>
             <li><a href="tel:380961111111" class="contakts-nave">+38 096 111 11 11</a></li>
-        </ul>
+            </ul>
+            </div>
+        </div>
     </header>
     <!--основной блок-->
     <main>
     <!--Фильтр-->
+    <div class="container">
         <section class="section">
         <div class="section-button">
         <ul class="list">
@@ -44,8 +50,9 @@
             <li><button type="button" class="button-primary">Маркетинг</button></li>     
         </ul>
         </div>
+    </div>
         <!--Наши работы-->
-        <div class="conteiner">
+        <div class="container">
             <h2>Наши работы</h2>
             <ul class="list">
                 <li class="card"><img src="./images/img(7)(1).jpg" alt="Сайты" width="370" height="294">
@@ -81,6 +88,7 @@
     </main>
     <!--Подвал-->
     <footer class="footer-sektion">
+        <div class="container">
             <a class="logo" href="./index.html">Web<span class="accent-footer">Studio</span></a>
             <address>
                 <p class="adress">г. Киев, пр-т Леси Украинки, 26</p>
@@ -89,7 +97,7 @@
                     <li><a href="tel:380961111111" class="contakts-footer">+38 096 111 11 11</a></li>
                 </ul>
             </address>
+        </div>
     </footer>
-    </div>
 </body>
 </html>
