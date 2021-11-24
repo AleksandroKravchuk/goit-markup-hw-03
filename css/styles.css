@@ -15,6 +15,17 @@ body {
    --accent-color:#2196F3; 
    --button-color:#F5F4FA;
    --button-text-color:#212121;
+   --card-set:30px;
+
+/* Цвет заголовков текста #212121 */
+/* Цвет  текста #757575 */
+/* Основной цвет фона #E5E5E5 */
+/* Цвет фона шапки #FFFFFF */
+/* Цвет фона подвала  #2F303A */
+/* Активный цвет #2196F3 */
+/* Основной цвет кнопки #F5F4FA;*/
+/* Основной цвет текста в кнопке #212121;*/
+/* Расстояние между карточками 30px */
 }
 h1, h2, h3, h4, h5, h6, p {
    margin: 0px;
@@ -31,15 +42,10 @@ ul {
    padding-left: 15px;
    padding-right: 15px;
 }
-/* Цвет заголовков текста #212121 */
-/* Цвет  текста #757575 */
-/* Основной цвет фона #E5E5E5 */
-/* Цвет фона шапки #FFFFFF */
-/* Цвет фона подвала  #2F303A */
-/* Активный цвет #2196F3 */
-/* Основной цвет кнопки #F5F4FA;*/
-/* Основной цвет текста в кнопке #212121;*/
-
+img {
+   display: block;
+   max-width: 100%;
+}
 /* Шапка */
 .header-sektion {
    background-color: var(--header-fone-color);
@@ -201,29 +207,31 @@ text-decoration: none;
    font-size  : 18px;
    line-height: 2;
    margin-top: 20px;
-   margin-bottom: 4px;
-   padding-left: 24px;
+   
 }
 .text-of-works {
    color: var(--text-color);
    font-size  : 16px;
    line-height: 1.9;
-   margin-top: 0px;
-   margin-bottom: 0px;
-   padding-left: 24px;
+   margin-top: 4px;
 }
 .card {
-   flex-basis: calc(100%/3);
-   background: #FFFFFF;
-   border: 1px solid #EEEEEE;
-   box-sizing: border-box;
- margin-bottom: 30px;
+   flex-basis: calc (100%/3 - var(--card-set));
+   background: var(--header-fone-color);
+   margin-top: var(--card-set);
+   margin-left: var(--card-set);
 }
 .list-work {
    display: flex;
    flex-wrap: wrap;
+   margin-top: calc(-1*var(--card-set));
+   margin-left: calc(-1*var(--card-set));
 }
-
+.card-content {
+   padding-right: 24px;
+   padding-left: 24px;
+   padding-bottom: 20px;
+}
 /* Кнопки */
 
 .button-primary {
