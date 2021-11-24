@@ -16,8 +16,13 @@ body {
    --button-color:#F5F4FA;
    --button-text-color:#212121;
 }
-h2 {
+h1, h2, h3, h4, h5, h6, p {
    margin: 0px;
+}
+ul {
+   list-style: none;
+   padding   : 0px;
+   margin    : 0px;
 }
 .container {
    width: 1200px;
@@ -59,11 +64,7 @@ h2 {
 }
 
 /* Навигация */
-.list {
-   list-style: none;
-   padding: 0px;
-   margin: 0px;
-}
+
 .site-nave {
    color: var(--main-text-color);
    font-weight: 500;
@@ -164,7 +165,7 @@ text-decoration: none;
    padding-bottom: 94px;
 }
 .section-work {
-   padding-bottom: 188px;
+   padding-bottom: 94px;
 }
 .name {
    font-weight: 500;
@@ -181,7 +182,8 @@ text-decoration: none;
    margin-bottom: 0px;
 }
 .section-team {
-padding-bottom: 0px;
+   padding-top: 94px;
+   padding-bottom: 0px;
 }
 .card-team {
    width: 270px;
@@ -211,12 +213,15 @@ padding-bottom: 0px;
    padding-left: 24px;
 }
 .card {
-   width: 370px;
-   height: 404px;
+   flex-basis: calc(100%/3);
    background: #FFFFFF;
    border: 1px solid #EEEEEE;
    box-sizing: border-box;
-   margin-bottom: 30px;
+ margin-bottom: 30px;
+}
+.list-work {
+   display: flex;
+   flex-wrap: wrap;
 }
 
 /* Кнопки */
