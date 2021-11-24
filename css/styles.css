@@ -53,6 +53,9 @@ img {
    padding-bottom: 25px;
    border-bottom:  1px solid #ECECEC;
 }
+.list-header {
+   display: flex;
+}
 /* Логотип */
 .logo {
    font-family: 'Raleway',sans-serif;
@@ -78,6 +81,7 @@ img {
    line-height: 1.2;
    letter-spacing: 0.02em;
    text-decoration: none;
+  
 }
 .site-nave:hover,
 .site-nave:focus {
@@ -111,7 +115,9 @@ text-decoration: none;
 .site-nave-portfolio:visited {
    color: var(--accent-color);
 }
-
+.list-nave {
+   display: flex;
+}
 /* Контакты */
 .contakts-nave {
    color: var(--text-color);
@@ -124,6 +130,9 @@ text-decoration: none;
 .contakts-nave:hover,
 .contakts-nave:focus {
    color: var(--accent-color);
+}
+.list-contakts {
+   display: flex;
 }
 
 /* Основной блок */
@@ -255,6 +264,13 @@ text-decoration: none;
 0px 1px 2px rgba(0, 0, 0, 0.08),
 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
+.list-button {
+   display: flex;
+   justify-content: center;
+}
+.button-lokation {
+   margin-left: 8px;
+}
 .button-main {
    background-color:var(--accent-color);
    color:var(--header-fone-color);
@@ -278,8 +294,8 @@ text-decoration: none;
    padding-bottom: 200px;
 }
 .section-button {
-   padding-top: 94px;
-   padding-bottom: 50px;
+   margin-top: 94px;
+   margin-bottom: 50px;
 }
 
 /* Подвал */
