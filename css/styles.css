@@ -182,7 +182,6 @@ text-decoration: none;
 } */
 .list-advantages {
    display: flex;
-   margin-top: calc(-1*var(--card-set));
    margin-left: calc(-1*var(--card-set));
 }
 .card-advantages {
@@ -196,7 +195,6 @@ text-decoration: none;
 } */
 .list-work {
    display: flex;
-   margin-top: calc(-1*var(--card-set));
    margin-left: calc(-1*var(--card-set));
 }
 .photo-work {
@@ -224,7 +222,6 @@ text-decoration: none;
 } */
 .list-team {
    display   : flex;
-   margin-top: calc(-1*var(--card-set));
    margin-left: calc(-1*var(--card-set));
 }
 .card-team {
