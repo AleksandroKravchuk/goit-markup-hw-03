@@ -215,10 +215,10 @@ text-decoration: none;
 .list-work {
    display: flex;
    margin-left: calc(-1*var(--card-set));
+   margin-bottom: 94px;
 }
 .photo-work {
    flex-basis   : calc (100%/3 - var(--card-set));
-   margin-bottom: 94px;
    margin-left  : var(--card-set);
 }
 .name {
@@ -277,12 +277,7 @@ text-decoration: none;
    margin-top: var(--card-set);
    margin-left: var(--card-set);
 }
-.list-work {
-   display: flex;
-   flex-wrap: wrap;
-   margin-top: calc(-1*var(--card-set));
-   margin-left: calc(-1*var(--card-set));
-}
+
 .card-content {
    padding-right: 24px;
    padding-left: 24px;
@@ -315,8 +310,8 @@ text-decoration: none;
    display: flex;
    justify-content: center;
 }
-.button-lokation {
-   margin-left: 8px;
+.button-lokation:not(:last-child) {
+   margin-right: 8px;
 }
 .button-main {
    background-color:var(--accent-color);
