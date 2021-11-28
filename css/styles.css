@@ -56,6 +56,7 @@ img {
 }
 
 /* LOGO */
+
 .logo {
    font-family: 'Raleway',sans-serif;
    font-size  : 26px;
@@ -224,6 +225,9 @@ text-decoration: none;
 .list-advantages {
    display: flex;
 }
+.card-advantages {
+   width: 270px;
+}
 .card-advantages:not(:last-child) {
    margin-right:  var(--card-set);
 }
@@ -244,6 +248,9 @@ text-decoration: none;
 .list-work {
    display: flex;
 }
+.photo-work {
+ width: 370px;  
+}
 .photo-work:not(:last-child) {
    margin-right: var(--card-set);
 }
@@ -251,6 +258,7 @@ text-decoration: none;
 
 /* Team */
 .section-team {
+   background-color: #F5F4FA;
    padding-top: 94px;
    padding-bottom: 94px;
 }
@@ -268,7 +276,9 @@ text-decoration: none;
 .list-team {
    display   : flex;
 }
-
+.card-team {
+   width: 270px;
+}
 .card-team:not(:last-child) {
    margin-right : var(--card-set);
 }
@@ -343,7 +353,6 @@ text-decoration: none;
    background: var(--header-fone-color);
    margin-top: var(--card-set);
    margin-left: var(--card-set);
-   border-bottom:  1px solid #EEEEEE;
 }
 .list-card {
    display: flex;
@@ -367,7 +376,7 @@ text-decoration: none;
    padding-top: 60px;
    padding-bottom: 60px;
 }
-.container .logo {
+.container>.logo {
    margin-bottom: 20px;
 }
 .adress {
